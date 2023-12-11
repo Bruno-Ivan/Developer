@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bruno Developer</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/bruno-ivan"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61552306412212"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bruno Ivan</p>
+                <h2>Desarrollador Web</h2>
+                <p class="descripcion">DISEÑO UI /DEV WORDPRESS / EXPERTO SEO</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2> Soy Desarrollador Web<span> y Desarrollador Visual</span> </h2>
+            <p> Mi principal fortaleza es el Diseño, la Fotografía y el Diseño UI/UX. Me esfuerzo por crear experiencias
+                digitales impactantes y visualmente atractivas que cautiven a los usuarios. Con habilidades sólidas en
+                desarrollo web y una visión artística, me dedico a fusionar lo estético con lo funcional para lograr
+                resultados excepcionales. ¡Estoy listo para llevar tus proyectos al siguiente nivel!</p>
+            <p></p>
+
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-mobile-screen-button"></i></span>
+                <h4>Desarrollo Mobil</h4>
+                <hr>
+                <p>Diseñador de gráficos de movimiento especializado en mejorar la experiencia visual de
+                    las aplicaciones móvil</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Gráfico de Vectores</h4>
+                <hr>
+                <p>Desarrollador con un enfoque especializado en la
+                    representación gráfica del movimiento y vector
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>Temas WP para HTML</h4>
+                <hr>
+                <p>Especializados en la creación y adaptación de temas WordPress a HTML
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-apple"></i></span>
+                <h4>Animaciones para ioS </h4>
+                <hr>
+                <p>Desarrollador de
+                    aplicaciones
+                    para iOS con un enfoque único en la creación de experiencias cautivador.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <p>Diseñador gráfico apasionado y creativo, con la determinación de llevar la identidad visual de su
+                    marca a nuevos niveles de impacto
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <p>Consultor externo especializado en desarrollo web
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Ristorante/">
+                    <img src="https://www.lovecasa.com.au/wp-content/uploads/2022/02/casa-italian-menu-1-1500x660.jpg"
+                        alt="Ristorante" />
+                </a>
+                <div class="info">
+                    <h4>Ristorante Italiano.</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Carrusel/">
+                    <img src="https://i.blogs.es/7f2851/photos-24/840_560.jpeg" alt="Carrusel" />
+                </a>
+                <div class="info">
+                    <h4>Carrusel de imagenes</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Planetas/">
+                    <img src="https://concepto.de/wp-content/uploads/2018/02/Sistema-solar-e1518703607625.jpg"
+                        alt="Sistema Solar" />
+                </a>
+                <div class="info">
+                    <h4>Sistema Solar</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Tienda de bicicletas</h4>
+                    <p>WordPress, diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Blog de Cocina</h4>
+                    <p>Negocio, Comida</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto NASA</h4>
+                    <p>Marca, Negocio, diseño web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Proyecto3/">
+                    <img src="https://img.freepik.com/vector-premium/pagina-inicio-tecnologia-futurista_23-2148278215.jpg?w=2000"
+                        alt="Technology" />
+                </a>
+                <div class="info">
+                    <h4>Technology</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Streaming/">
+                    <img src="https://www.apptuts.net/wp-content/uploads/2021/06/Vudu.png" alt="Streaming" />
+                </a>
+                <div class="info">
+                    <h4>Streaming</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://bruno-ivan.github.io/Gallery/">
+                    <img src="https://s1.eestatic.com/2019/04/04/ciencia/nutricion/bebidas_espirituosas-alcohol-nutricion_388473428_119607645_1706x1280.jpg"
+                        alt="Streaming" />
+                </a>
+                <div class="info">
+                    <h4>Galeria de Producto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>&copy; 2024 Desarrollado por Bruno Ivan</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/bruno-ivan"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61552306412212"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
